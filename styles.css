@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.admin-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color: #455A64;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-head-image {
+  width: 20%;
+  margin-right: 20px;
+}
+
+.admin-head-image img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-head-info {
+  width: 60%;
+  color: #fff;
+}
+
+.admin-head-info h3 {
+  margin-top: 0;
+  color: #D4AF37;
+}
+
+.officers-table {
+  margin-top: 20px;
+}
+
+.officers-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.officers-table th, .officers-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.officers-table th {
+  background-color: #f0f0f0;
+}
+
+.officers-table img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.campus-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.campus-card {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: calc(33.33% - 40px);
+  border-radius: 10px;
+}
+
+.campus-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.campus-card :hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.campus-card h3 {
+  color: #1565C0;
+}
+
+.campus-card a {
+  color: #C62828;
+  text-decoration: none;
+}
+
+.campus-card a:hover {
+  color: #D4AF37;
+}
+
+@media (max-width: 768px) {
+  .campus-card {
+      width: calc(50% - 40px);
+  }
+}
+
+@media (max-width: 480px) {
+  .campus-card {
+      width: 100%;
+  }
+}
